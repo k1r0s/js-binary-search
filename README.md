@@ -4,7 +4,7 @@
 ```
 const bSearch = require('js-binary-search');
 const array = [3, 5, 12, 56, 100];
-bSeach.search(array, 12);
+bSearch.search(array, 12);
 // return { index: 2, item: 12 }
 ```
 
@@ -17,6 +17,6 @@ const array = [
   {id: 13},
   {id: 26}
 ]
-bSeach.search_in_associative(array, 'id', 26)
+bSearch.search_in_associative(array, 'id', 26)
 // return {index: 3, item: {id: 26}}
 ```
